@@ -1,0 +1,64 @@
+{
+    "id": "tour_001",
+    "date": "today",
+    "visits": [
+        {
+            "id": "1563097500_6",
+            "patient": {
+                "id": 6,
+                "modified": 1562137200,
+                "status": "good"
+            },
+            "eta": "09:45",
+            "care_plan": 3,
+            "pending_care": [
+                "skin_care",
+                "hair_nail_care"
+            ]
+        },
+        {
+            "id": "1563101100_2",
+            "patient": {
+                "id": 2,
+                "modified": 1562040000,
+                "status": "poor"
+            },
+            "eta": "10:45",
+            "care_plan": 4,
+            "pending_care": []
+        },
+        {
+            "id": "1563103800_1",
+            "patient": {
+                "id": 1,
+                "modified": 1562122800,
+                "status": "average"
+            },
+            "eta": "11:30",
+            "care_plan": 5,
+            "pending_care": []
+        },
+        {
+            "id": "1563106500_4",
+            "patient": {
+                "id": 4,
+                "modified": 1562004000,
+                "status": "good"
+            },
+            "eta": "12:15",
+            "care_plan": 2,
+            "pending_care": []
+        },
+        {
+            "id": "1563109200_8",
+            "patient": {
+                "id": 8,
+                "modified": 1562058000,
+                "status": "good"
+            },
+            "eta": "13:00",
+            "care_plan": 3,
+            "pending_care": []
+        }
+    ]
+}

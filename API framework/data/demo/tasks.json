@@ -1,0 +1,52 @@
+[
+    {
+        "id": "id1",
+        "creatorId": "creatorId1",
+        "description": "Meeting with Dr. Tremblay",
+        "creationTime": "-9 day,10:27",
+        "completionTime": ",14:15",
+        "completionStatus": false,
+        "audioFileUrl": null,
+        "taskCategory": [
+            {
+                "type": "GENERAL",
+                "categoryId": ""
+            }
+        ],
+        "visibility": "PRIVATE",
+        "isHighPriority": true
+    },
+    {
+        "id": "id2",
+        "creatorId": "creatorId1",
+        "description": "Wash patient carefully",
+        "creationTime": "-2 day,10:17",
+        "completionTime": ",10:00",
+        "completionStatus": false,
+        "audioFileUrl": null,
+        "taskCategory": [
+            {
+                "type": "PATIENT",
+                "categoryId": 6
+            }
+        ],
+        "visibility": "PUBLIC",
+        "isHighPriority": false
+    },
+    {
+        "id": "id3",
+        "creatorId": "creatorId2",
+        "description": "Have a short chat with the patient",
+        "creationTime": "-2 day,11:20",
+        "completionTime": "-1 day,11:00",
+        "completionStatus": true,
+        "taskCategory": [
+            {
+                "type": "PATIENT",
+                "categoryId": 2
+            }
+        ],
+        "visibility": "PUBLIC",
+        "isHighPriority": true
+    }
+]

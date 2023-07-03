@@ -1,0 +1,29 @@
+id,key,time,en,de
+1,transfer_to_from_bed,8,Transfer to / from bed,Aufsuchen/Verlassen des Bettes
+2,assist_getting_un_dressed,10,Assist getting  (un)dressed,Hilfe beim An- und Auskleiden
+3,partial_bathing,12,Partial bathing,Teilwaschen
+4,oral_dental_denture_care,7,"Oral, Dental Denture Care","Mund-, Zahn- Prothesenpflege"
+5,shaving_facial_care,10,Shaving & facial care,Rasieren & Gesichtspflege
+6,comb_hair,6,Comb hair,Kämmen
+7,skin_care,7,Skin care,Hautppflege
+8,complex_task,20,Complex task,Komplexgebühr
+9,hair_nail_care,15,Hair & nail care,Haar- und Nagelpflege
+10,thorough_bathing,20,Thorough bathing,Zuschlag Ganzkörperwäsche
+11,complete_bathing_only,30,Complete bathing (only),Ganzkörperwäsche als alleinige Leistung
+12,stationary_mobilization,12,Stationary mobilization,Lagern Mobilisieren
+13,assist_with_eating,12,Assist with eating,Hilfe bei der Nahrungsaufnahme
+14,administer_tube_feeding,12,Administer tube feeding,Verabreichung von Sondennahrung
+15,aid_defecation_urination,15,Aid defecation & urination,Hilfe bei Darm- und Blasenentleerung
+16,void_colostomy_bag,10,Void colostomy bag,Stomabeutel entleeren
+17,help_depart_return_to_residence,20,Help depart / return to residence,Hilfe beim Verl./Aus. Der Wohnung
+18,accompany_in_activities,30,Accompany in activities,Begleitung bei Aktivitäten
+19,manage_heating_of_residence,5,Manage heating of residence,Beheizen der Wohnung
+20,minor_residence_care,10,Minor residence care,Kleine hauswirtschaftl. Versorgung
+21,major_residence_care,25,Major residence care,Große hauswirtschaftliche Versorgung
+22,wash_dry_laundry,15,Wash & dry laundry,Waschen der Wäsche und Kleidung
+23,fold_deposit_laundry,15,Fold & deposit laundry,Einräumen der Wäsche und Kleidung
+24,groceries_shopping,30,Groceries & shopping,Einkaufen
+25,cook_warm_meal,20,Cook warm meal,Zubereitung warmer Mahlzeit
+26,prepare_other_meal,10,Prepare other meal,Zubereitung sonstiger Mahlzeit
+27,first_visit,30,First visit,Erstbesuch
+28,modify_care_plan,5,Modify care plan,Änderung der Pflegeplanung

@@ -1,0 +1,46 @@
+[
+    {
+        "id": "id1",
+        "creatorId": "creatorId1",
+        "description": "Patient seemed angry with me today",
+        "creationTime": "-18 hour,11:08",
+        "audioFileUrl": null,
+        "noteCategory": [
+            {
+                "type": "GENERAL",
+                "categoryId": 2
+            }
+        ],
+        "noteVisibility": "PRIVATE",
+        "isHighPriority": false
+    },
+    {
+        "id": "id2",
+        "creatorId": "creatorId1",
+        "description": "Patient frequently refuses care",
+        "creationTime": "-6 day,13:21",
+        "audioFileUrl": null,
+        "noteCategory": [
+            {
+                "type": "PATIENT",
+                "categoryId": 3
+            }
+        ],
+        "noteVisibility": "PUBLIC",
+        "isHighPriority": false
+    },
+    {
+        "id": "id3",
+        "creatorId": "creatorId2",
+        "description": "Patient likes the paper brought in",
+        "creationTime": "-13 day,10:09",
+        "noteCategory": [
+            {
+                "type": "PATIENT",
+                "categoryId": 6
+            }
+        ],
+        "noteVisibility": "PUBLIC",
+        "isHighPriority": true
+    }
+]

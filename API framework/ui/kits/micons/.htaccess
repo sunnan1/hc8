@@ -1,0 +1,6 @@
+# Allow font assets to be used across domains and subdomains
+<FilesMatch "\.(ttf|otf|eot|woff|woff2|svg|ijmap)$">
+  <IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "dev"
+  </IfModule>
+</FilesMatch>

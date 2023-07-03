@@ -1,0 +1,84 @@
+[
+    {
+        "id": 1,
+        "first_name": "Jack",
+        "last_name": "Baker",
+        "phone": "+1 (902) 555 9453",
+        "certifications": [
+            "wound_simple",
+            "wound_complicated",
+            "injection_im",
+            "injection_sc"
+        ],
+        "schedule": {
+            "mon": "08:00 - 16:00",
+            "tue": "08:00 - 16:00",
+            "wed": "08:00 - 12:00",
+            "thu": "08:00 - 16:00",
+            "fri": "08:00 - 16:00",
+            "sat": "Day Off",
+            "sun": "Day Off"
+        }
+    },
+    {
+        "id": 2,
+        "first_name": "Sofia",
+        "last_name": "Bouchard",
+        "phone": "+1 (902) 555 9988",
+        "certifications": [
+            "wound_simple",
+            "wound_complicated",
+            "injection_im",
+            "injection_sc"
+        ],
+        "schedule": {
+            "mon": "08:00 - 16:00",
+            "tue": "08:00 - 16:00",
+            "wed": "08:00 - 16:00",
+            "thu": "08:00 - 16:00",
+            "fri": "08:00 - 16:00",
+            "sat": "Day Off",
+            "sun": "Day Off"
+        }
+    },
+	{
+        "id": 3,
+        "first_name": "Lena",
+        "last_name": "Fortin",
+        "phone": "+1 (902) 555 9454",
+        "certifications": [
+            "wound_simple",
+            "injection_im"
+        ],
+        "schedule": {
+            "mon": "08:00 - 16:00",
+            "tue": "08:00 - 16:00",
+            "wed": "08:00 - 12:00",
+            "thu": "08:00 - 16:00",
+            "fri": "08:00 - 16:00",
+            "sat": "Day Off",
+            "sun": "Day Off"
+        }
+    },
+    {
+        "id": 4,
+        "first_name": "Kate",
+        "last_name": "Lavoie",
+        "phone": "+1 (902) 555 9455",
+        "certifications": [
+            "wound_simple",
+            "wound_complicated",
+            "injection_im",
+            "injection_sc"
+        ],
+        "schedule": {
+            "mon": "14:00 - 20:00",
+            "tue": "14:00 - 20:00",
+            "wed": "12:00 - 20:00",
+            "thu": "14:00 - 20:00",
+            "fri": "14:00 - 20:00",
+            "sat": "Day Off",
+            "sun": "Day Off"
+        }
+    }
+]

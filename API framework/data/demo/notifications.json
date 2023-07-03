@@ -1,0 +1,19 @@
+[
+	{
+		"id": "id1",
+		"type": "general",
+		"description": "Example of a general notification"
+	},
+	{
+		"id": "id2",
+		"type": "add_patient",
+		"description": "Add patient to the tour",
+		"patient_id": "3"
+	},
+	{
+		"id": "id3",
+		"type": "add_task",
+		"description": "Add task",
+		"task_id": "id1"
+	}
+]

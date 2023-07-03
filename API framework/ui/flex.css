@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+Version: 1.0.0
+Author: Tim J La Fazia II
+Author eMail:timj@amnexis.com
+*/
+
+html { overflow:hidden; }
+
+body, div[x], [box] { display:-ms-flexbox; display:flex; -ms-flex-align:center; flex-direction:column; }
+
+header,main,footer,section,[box] { flex:initial; padding:8px; min-height:36px; }
+
+body > header, body > [x] > nav, [box] { color:inherit; position:relative; background-color:hsl(0,0%,100%); transition:box-shadow 250ms; }
+
+body > header,
+body > main,
+body > footer,
+body > section
+body > [x] { min-width:320px; }
+
+header, footer, header + [x] { justify-content:space-between; min-width:min-content; flex-wrap:nowrap; display:flex; }
+
+body > header > div { height:48px; vertical-align:middle; white-space:nowrap; align-items:center; display:flex; box-sizing:border-box; }
+body > header > div:first-of-type { padding-right:30px; flex:1 0 auto; }
+body > header > div + div { justify-content:flex-start; flex:1 1 100%; }
+body > header > div + div:last-of-type { line-height:normal; padding-left:30px; flex:0 0 auto; justify-content:flex-end; }
+
+body > [x] > [x] > [x] > aside { max-width:min-content; }
+body > [x] > [x] > footer { justify-content:flex-end; font-size:11px; }
+body > [x] > [x] > footer > i { margin:0 18px; letter-spacing:1px; color:hsl(0,0%,50%); }
+body > [x] > [x] > footer > i > small { font-size:115%; font-variant:small-caps; font-family:Roboto -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif }
+
+[x=col],
+body > header + [x],
+body > [x] > [x] > [x],
+body > [x] > [x] > [x] > [x] > [x],
+body > [x] > [x] > [x] > section > main > [x],
+body > [x] > [x] > [x] > aside > [x],
+body > [x] > [x] > [x] > [x] > [x] > [x] > [x],
+body > [x] > [x] > [x] > section > main > [x] > [x] > [x],
+body > [x] > [x] > [x] > aside > [x] > [x] > [x],
+body > [x] > [x] > [x] > [x] > [x] > [x] > [x] > [x]  > [x],
+body > [x] > [x] > [x] > section > main > [x] > [x] > [x] > [x]  > [x],
+body > [x] > [x] > [x] > aside > [x] > [x] > [x] > [x]  > [x], 
+body > [x] > [x] > [x] > [x] > [x] > [x] > [x] > [x]  > [x] > [x] > [x],
+body > [x] > [x] > [x] > section > main > [x] > [x] > [x] > [x]  > [x] > [x] > [x],
+body > [x] > [x] > [x] > aside > [x] > [x] > [x] > [x]  > [x] > [x] > [x] { flex:auto; display:flex; flex-direction:row; padding:0; position:relative; z-index:auto; max-width:100%; }
+body > header + [x] > nav { position:relative; z-index:3; max-width:max-content; }
+body > header + [x] > nav + [x] { display:flex; flex:1; }
+
+[x=row],
+body > header + [x] > nav,
+body > header + [x] > nav + [x],
+body > [x] > [x] > [x] > [x],
+body > [x] > [x] > [x] > section,
+body > [x] > [x] > [x] > aside,
+body > [x] > [x] > [x] > [x] > [x] > [x],
+body > [x] > [x] > [x] > section > main > [x] > [x],
+body > [x] > [x] > [x] > aside > [x] > [x],
+body > [x] > [x] > [x] > [x] > [x] > [x] > [x] > [x],
+body > [x] > [x] > [x] > section > main > [x] > [x] > [x] > [x],
+body > [x] > [x] > [x] > aside > [x] > [x] > [x] > [x],
+body > [x] > [x] > [x] > [x] > [x] > [x] > [x] > [x]  > [x] > [x],
+body > [x] > [x] > [x] > section > main > [x] > [x] > [x] > [x]  > [x] > [x],
+body > [x] > [x] > [x] > aside > [x] > [x] > [x] > [x]  > [x] > [x] { flex:1 0 auto; display:flex; flex-direction:column; }
+body > [x] > [x] > [x] > section { flex:1 1 100%; max-height:100%; max-width:100%; background:none; position:relative; margin:8px; }
+body > [x] > [x] > [x] > section > main { margin:0; padding:8px; position:absolute; top:0; right:0; bottom:0; left:0; z-index:3; background-clip:content-box; overflow:hidden; }
+body > [x] > [x] > [x] > section > main > header { margin:0 1em 8px 0; padding:0; max-height:max-content; padding-bottom:8px; }
+body > [x] > [x] > [x] > section > main > header > [x] { line-height:64px; vertical-align:middle; }
+body > [x] > [x] > [x] > section > main > header > [x] > h1 { margin:0; }
+body > [x] > [x] > [x] > section > main > [x] { max-height:100%; overflow:auto; }
+body > [x] > [x] > [x] > section > main > [x] > table,
+body > [x] > [x] > [x] > section > main > [x] > table { table-layout:auto; width: 100%; background-color:hsl(0,0%,100%); position:relative; border-collapse:collapse; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; -webkit-box-shadow:inset -1px -1px .5px .5px hsla(211,23%,49%,0.12); box-shadow:inset -1px -1px .5px .5px hsla(211,23%,49%,0.12); }
+body > [x] > [x] > [x] > section > main > [x] > table > thead > tr,
+body > [x] > [x] > [x] > section > main > [x] > table > tbody > tr,
+body > [x] > [x] > [x] > section > main > [x] > [box] > table > thead > tr,
+body > [x] > [x] > [x] > section > main > [x] > [box] > table > tbody > tr { -webkit-box-shadow:inset 0 -1px 0 hsla(211,23%,49%,0.12); box-shadow:inset 0 -1px 0 hsla(211,23%,49%,0.12); }
+body > [x] > [x] > [x] > section > main > [x] > table > thead > tr > th,
+body > [x] > [x] > [x] > section > main > [x] > table > thead > tr > th > td,
+body > [x] > [x] > [x] > section > main > [x] > table > tbody > tr > td,
+body > [x] > [x] > [x] > section > main > [x] > [box] > table > thead > tr > th,
+body > [x] > [x] > [x] > section > main > [x] > [box] > table > thead > tr > th > td,
+body > [x] > [x] > [x] > section > main > [x] > [box] > table > tbody > tr > td { border:0; padding:10px; -webkit-box-shadow:inset -1px 0 0 hsla(211,23%,49%,0.12), inset 0 -1px 0 hsla(211,23%,49%,0.12); box-shadow:inset -1px 0 0 hsla(211,23%,49%,0.12), inset 0 -1px 0 hsla(211,23%,49%,0.12); }
+body > [x] > [x] > [x] > section > main > [x] > table > tbody > tr > td:first-of-type,
+body > [x] > [x] > [x] > section > main > [x] > [box] > table > tbody > tr > td:first-of-type { -webkit-box-shadow:inset 1px 0 0 hsla(211,23%,49%,0.12), inset -1px 0 0 hsla(211,23%,49%,0.12), inset 0 -1px 0 hsla(211,23%,49%,0.12); box-shadow:inset 1px 0 0 hsla(211,23%,49%,0.12), inset -1px 0 0 hsla(211,23%,49%,0.12), inset 0 -1px 0 hsla(211,23%,49%,0.12); }
+body > [x] > [x] > [x] > section > main > [x] > table > thead > tr > th,
+body > [x] > [x] > [x] > section > main > [x] > [box] > table > thead > tr > th { text-transform:capitalize; position:-webkit-sticky; position:sticky; top:0; -webkit-box-shadow:inset 0px 0px .5px .5px hsl(200,50%,66%), 0px 1px 0px hsl(200,50%,22%); box-shadow:inset 0px 0px .5px .5px hsl(200,50%,66%), 0px 1px 0px hsl(200,50%,22%); z-index:100; }
+body > [x] > [x] > [x] > section > main > [x] > table > thead > tr > th > i,
+body > [x] > [x] > [x] > section > main > [x] > [box] > table > thead > tr > th > i { text-transform:none; }
+
+/*body > header + section > main > [box] > table > thead { -webkit-box-shadow:inset 0px 0px .5px .5px hsl(200,50%,66%), 0px 1px 0px hsl(200,50%,22%); box-shadow:inset 0px 0px .5px .5px hsl(200,50%,66%), 0px 3px 3px hsl(200,50%,22%); }
+body > header + section > main > [box] > table > tbody {  }*/
+
+
+body > header + section > nav { padding:0; background-color:hsl(0,0%,100%); }
+
+center:only-child { width:100%; max-width:420px; padding:5px; margin:auto; }
+
+[row] { position:relative; margin-bottom:.5rem; }
+
+input,
+label { height:1.5rem; padding:.75rem; margin:0; display:block; width:100%; line-height:1.5; color:hsl(210,9%,31%); }
+
+[row] > label { position:absolute; top:0; left:0; pointer-events:none; cursor:text; border:1px solid transparent; border-radius:.25rem; transition:all .1s ease-in-out; }
+
+input::-webkit-input-placeholder { color:transparent; }
+input:-ms-input-placeholder { color:transparent; }
+input::-ms-input-placeholder { color:transparent; }
+input::-moz-placeholder { color:transparent; }
+input::placeholder { color:transparent; }
+input:not(:placeholder-shown) { padding-top:1.25rem; padding-bottom:.25rem; }
+input:not(:placeholder-shown) + label { padding-top:.25rem; padding-bottom:.25rem; font-size:12px; color:#777; }
+
+/* Fallback for Edge
+-------------------------------------------------- */
+@supports (-ms-ime-align:auto) {
+  label { display:none; }
+  input::-ms-input-placeholder { color:#777; }
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+@media all and (-ms-high-contrast:none), (-ms-high-contrast:active) {
+  .form-label-group > label { display:none; }
+  input:-ms-input-placeholder { color:#777; }
+}

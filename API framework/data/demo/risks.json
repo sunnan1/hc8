@@ -1,0 +1,62 @@
+[
+    {
+        "id": "dehydration",
+        "label": "Dehydration",
+        "eventForm": true
+    },
+    {
+        "id": "falling",
+        "label": "Falling",
+        "eventForm": true
+    },
+    {
+        "id": "malnutrition",
+        "label": "Malnutrition",
+        "eventForm": true
+    },
+    {
+        "id": "decubitus",
+        "label": "Decubitus",
+        "eventForm": true
+    },
+    {
+        "id": "mobility",
+        "label": "Mobility",
+        "eventForm": false
+    },
+    {
+        "id": "incontinence",
+        "label": "Incontinence",
+        "eventForm": true
+    },
+    {
+        "id": "pain",
+        "label": "Pain",
+        "eventForm": false
+    },
+    {
+        "id": "pneumonia",
+        "label": "Pneumonia",
+        "eventForm": false
+    },
+    {
+        "id": "constipation",
+        "label": "Constipation",
+        "eventForm": false
+    },
+    {
+        "id": "catheter",
+        "label": "Catheter",
+        "eventForm": false
+    },
+    {
+        "id": "intertrigo",
+        "label": "Intertrigo",
+        "eventForm": false
+    },
+    {
+        "id": "dementia",
+        "label": "Dementia",
+        "eventForm": false
+    }
+]

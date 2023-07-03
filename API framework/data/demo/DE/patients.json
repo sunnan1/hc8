@@ -1,0 +1,486 @@
+[
+    {
+        "id": 1,
+        "first_name": "Anna",
+        "last_name": "Handle",
+        "gender": "female",
+        "dob": -417315600,
+        "key_number": "B231",
+        "phone": "+44 2403789078",
+        "gp_contact_id": 3,
+        "emergency_contact_id": 8,
+        "insurance": "MPG Plus",
+        "address": "Ludwig-Jahn-Straße 93",
+        "primary_care_giver_id": 2,
+		"info_flags": {
+			"care_grade": 5,
+			"is_active": true,
+			"has_dnr": false,
+			"is_timed_billing": true
+		},
+        "city": "Esslingen am Neckar",
+        "country": "Germany",
+        "post_code": 73732,
+        "lat": 48.742479769830300,
+   		"long": 9.337434370016390,
+        "status": "average",
+		"allergies": [],
+        "risks": [
+            "falling"
+        ],
+        "infections": [],
+        "modified": 1562122800,
+        "previous_visit": {
+            "status": "average",
+            "note": "Anna just seemed OK. Nothing to report."
+        },
+        "medications": [
+            {
+                "id": "id1",
+                "label": "Paracetomol",
+                "dosage": "250 mg",
+                "notes": "Take as needed",
+                "am": false,
+                "noon": false,
+                "pm": false,
+                "with_food": false
+            },
+            {
+                "id": "id2",
+                "label": "Encomcore",
+                "dosage": "5 mg",
+                "notes": "",
+                "am": true,
+                "noon": false,
+                "pm": false,
+                "with_food": false
+            },
+            {
+                "id": "id3",
+                "label": "Tetracyline",
+                "dosage": "500 mg",
+                "notes": "",
+                "am": true,
+                "noon": false,
+                "pm": true,
+                "with_food": true
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "first_name": "Carl",
+        "last_name": "M\u00fcller",
+        "gender": "male",
+        "dob": -802918800,
+        "key_number": "A440",
+        "phone": "+44 2404789080",
+        "gp_contact_id": 3,
+        "emergency_contact_id": 8,
+        "insurance": "MPG",
+        "address": "Hindenburgstraße 34",
+        "primary_care_giver_id": 2,
+		"info_flags": {
+			"care_grade": 3,
+			"is_active": true,
+			"has_dnr": true,
+			"is_timed_billing": true
+		},
+        "city": "Esslingen am Neckar",
+        "country": "Germany",
+        "post_code": 73728,
+		"lat": 48.738333606775300,
+		"long": 9.317183692922390,
+        "status": "poor",
+		"allergies": [],
+        "risks": [
+            "malnutrition",
+            "decubitus"
+        ],
+        "infections": [
+            "tbc"
+        ],
+        "modified": 1562040000,
+        "previous_visit": {
+            "status": "poor",
+            "note": "Carl had low energy and difficulty getting out of bed"
+        },
+        "medications": []
+    },
+    {
+        "id": 3,
+        "first_name": "Heinz",
+        "last_name": "Schmidt",
+        "gender": "male",
+        "dob": -1155949200,
+        "key_number": "A191",
+        "phone": "+44 2403789011",
+        "gp_contact_id": 1,
+        "emergency_contact_id": 8,
+        "insurance": "CM",
+        "address": "Unterer Eisbergweg 2",
+        "primary_care_giver_id": 1,
+		"info_flags": {
+			"care_grade": 4,
+			"is_active": false,
+			"has_dnr": false,
+			"is_timed_billing": false
+		},
+        "city": "Esslingen am Neckar",
+        "country": "Germany",
+        "post_code": 73734,
+        "lat": 48.733899768646900,
+		"long": 9.304188240443550,
+        "status": "average",
+		"allergies": [],
+        "risks": [
+            "dehydration",
+            "decubitus"
+        ],
+        "infections": [
+            "mrsa"
+        ],
+        "modified": 1562018400,
+        "previous_visit": {
+            "status": "average",
+            "note": "Care went as planned"
+        },
+        "medications": [
+            {
+                "id": "id1",
+                "label": "Paracetomol",
+                "dosage": "250 mg",
+                "notes": "Take as needed",
+                "am": false,
+                "noon": false,
+                "pm": false,
+                "with_food": false
+            },
+            {
+                "id": "id2",
+                "label": "Encomcore",
+                "dosage": "5 mg",
+                "notes": "",
+                "am": true,
+                "noon": false,
+                "pm": false,
+                "with_food": false
+            },
+            {
+                "id": "id3",
+                "label": "Tetracyline",
+                "dosage": "500 mg",
+                "notes": "",
+                "am": true,
+                "noon": false,
+                "pm": true,
+                "with_food": true
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "first_name": "Karla",
+        "last_name": "Hampel",
+        "gender": "female",
+        "dob": -332125200,
+        "key_number": "B090",
+        "phone": "+44 2404784420",
+        "gp_contact_id": 2,
+        "emergency_contact_id": 8,
+        "insurance": "UniCare",
+        "address": "Gayernweg 17",
+        "primary_care_giver_id": 2,
+		"info_flags": {
+			"care_grade": 3,
+			"is_active": true,
+			"has_dnr": true,
+			"is_timed_billing": false
+		},
+        "city": "Esslingen am Neckar",
+        "country": "Germany",
+        "post_code": 73733,
+        "lat": 48.746010392258900,
+		"long": 9.282476095540480,
+        "status": "good",
+		"allergies": [],
+        "risks": [],
+        "infections": [],
+        "modified": 1562004000,
+        "previous_visit": {
+            "status": "good",
+            "note": "Karla was feeling better than usual"
+        },
+        "medications": [
+            {
+                "id": "id1",
+                "label": "Paracetomol",
+                "dosage": "250 mg",
+                "notes": "Take as needed",
+                "am": false,
+                "noon": false,
+                "pm": false,
+                "with_food": false
+            },
+            {
+                "id": "id2",
+                "label": "Encomcore",
+                "dosage": "5 mg",
+                "notes": "",
+                "am": true,
+                "noon": false,
+                "pm": false,
+                "with_food": false
+            },
+            {
+                "id": "id3",
+                "label": "Tetracyline",
+                "dosage": "500 mg",
+                "notes": "",
+                "am": true,
+                "noon": false,
+                "pm": true,
+                "with_food": true
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "first_name": "Gerd",
+        "last_name": "M\u00fcller",
+        "gender": "male",
+        "dob": -335581200,
+        "key_number": "B025",
+        "phone": "+44 2403785609",
+        "gp_contact_id": 2,
+        "emergency_contact_id": 8,
+        "insurance": "AMH",
+        "address": "Mittelstraße 2",
+        "primary_care_giver_id": 2,
+		"info_flags": {
+			"care_grade": 2,
+			"is_active": true,
+			"has_dnr": false,
+			"is_timed_billing": true
+		},
+        "city": "Esslingen am Neckar",
+        "country": "Germany",
+        "post_code": 73733,
+        "lat": 48.747742557367000,
+		"long": 9.291114169209790,
+        "status": "poor",
+		"allergies": [],
+        "risks": [
+            "dehydration",
+            "falling",
+            "muscle_contracture"
+        ],
+        "infections": [
+            "gastroenteritis"
+        ],
+        "modified": 1562068800,
+        "previous_visit": {
+            "status": "good",
+            "note": "Patient care was uneventful"
+        },
+        "medications": [
+            {
+                "id": "id1",
+                "label": "Paracetomol",
+                "dosage": "250 mg",
+                "notes": "Take as needed",
+                "am": false,
+                "noon": false,
+                "pm": false,
+                "with_food": false
+            },
+            {
+                "id": "id2",
+                "label": "Encomcore",
+                "dosage": "5 mg",
+                "notes": "",
+                "am": true,
+                "noon": false,
+                "pm": false,
+                "with_food": false
+            },
+            {
+                "id": "id3",
+                "label": "Tetracyline",
+                "dosage": "500 mg",
+                "notes": "",
+                "am": true,
+                "noon": false,
+                "pm": true,
+                "with_food": true
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "first_name": "Katharina",
+        "last_name": "Vogt",
+        "gender": "female",
+        "dob": -893120400,
+        "key_number": "A411",
+        "phone": "+44 2404780033",
+        "gp_contact_id": 1,
+        "emergency_contact_id": 8,
+        "insurance": "MPG",
+        "address": "Rosenstraße 46",
+        "primary_care_giver_id": 2,
+		"info_flags": {
+			"care_grade": 1,
+			"is_active": true,
+			"has_dnr": true,
+			"is_timed_billing": false
+		},
+        "city": "Esslingen am Neckar",
+        "country": "Germany",
+        "post_code": 73733,
+        "lat": 48.749296424817300,
+		"long": 9.278240887526320,
+        "status": "good",
+		"allergies": [],
+        "risks": [],
+        "infections": [],
+        "modified": 1562137200,
+        "previous_visit": {
+            "status": "good",
+            "note": "Patient was in good spirits"
+        },
+        "medications": [
+            {
+                "id": "id1",
+                "label": "Paracetomol",
+                "dosage": "250 mg",
+                "notes": "Take as needed",
+                "am": false,
+                "noon": false,
+                "pm": false,
+                "with_food": false
+            },
+            {
+                "id": "id2",
+                "label": "Encomcore",
+                "dosage": "5 mg",
+                "notes": "",
+                "am": true,
+                "noon": false,
+                "pm": false,
+                "with_food": false
+            },
+            {
+                "id": "id3",
+                "label": "Tetracyline",
+                "dosage": "500 mg",
+                "notes": "",
+                "am": true,
+                "noon": false,
+                "pm": true,
+                "with_food": true
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "first_name": "Helga",
+        "last_name": "Webber",
+        "gender": "female",
+        "dob": -1172538000,
+        "key_number": "B102",
+        "phone": "+44 2403783344",
+        "gp_contact_id": 3,
+        "emergency_contact_id": 8,
+        "insurance": "AMH",
+        "address": "Im Fritzen 4",
+        "primary_care_giver_id": 1,
+		"info_flags": {
+			"care_grade": 5,
+			"is_active": false,
+			"has_dnr": false,
+			"is_timed_billing": false
+		},
+        "city": "Esslingen am Neckar",
+        "country": "Germany",
+        "post_code": 73733,
+        "lat": 48.755539585000100,
+		"long": 9.296457711249600,
+        "status": "average",
+		"allergies": [],
+        "risks": [],
+        "infections": [],
+        "modified": 1561975200,
+        "previous_visit": {
+            "status": "average",
+            "note": "Nothing significant to report"
+        },
+        "medications": [
+            {
+                "id": "id1",
+                "label": "Paracetomol",
+                "dosage": "250 mg",
+                "notes": "Take as needed",
+                "am": false,
+                "noon": false,
+                "pm": false,
+                "with_food": false
+            },
+            {
+                "id": "id2",
+                "label": "Encomcore",
+                "dosage": "5 mg",
+                "notes": "",
+                "am": true,
+                "noon": false,
+                "pm": false,
+                "with_food": false
+            },
+            {
+                "id": "id3",
+                "label": "Tetracyline",
+                "dosage": "500 mg",
+                "notes": "",
+                "am": true,
+                "noon": false,
+                "pm": true,
+                "with_food": true
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "first_name": "Rudolph",
+        "last_name": "Kie\u00dfl",
+        "gender": "male",
+        "dob": -1122944400,
+        "key_number": "A133",
+        "phone": "+44 2404788709",
+        "gp_contact_id": 3,
+        "emergency_contact_id": 8,
+        "insurance": "CM",
+        "address": "Schloßwiesenweg 6",
+        "primary_care_giver_id": 2,
+		"info_flags": {
+			"care_grade": 5,
+			"is_active": true,
+			"has_dnr": true,
+			"is_timed_billing": false
+		},
+        "city": "Esslingen am Neckar",
+        "country": "Germany",
+        "post_code": 73732,
+        "lat": 48.751703093703800,
+		"long": 9.308710711972920,
+        "status": "good",
+		"allergies": [],
+        "risks": [],
+        "infections": [],
+        "modified": 1562058000,
+        "previous_visit": {
+            "status": "good",
+            "note": "Patient care was uneventful"
+        },
+        "medications": []
+    }
+]

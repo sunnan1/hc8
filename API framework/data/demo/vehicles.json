@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "registration": "JAZ-891",
+        "odometer": 141336
+    },
+    {
+        "id": 2,
+        "registration": "JAZ-497",
+        "odometer": 563091
+    },
+    {
+        "id": 3,
+        "registration": "JMB-448",
+        "odometer": 666536
+    },
+    {
+        "id": 4,
+        "registration": "JMB-049",
+        "odometer": 595696
+    },
+    {
+        "id": 5,
+        "registration": "JAZ-390",
+        "odometer": 404689
+    }
+]

@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+Version: 1.0.0
+Author: Tim J La Fazia II
+Author eMail:timj@amnexis.com
+*/
+
+@font-face { font-family:'micons'; font-style:normal; font-weight:400; src:url(micons.fb.woff2) format('woff2'); }
+@font-face { font-family:'micons ol'; font-style:normal; font-weight:400; src:url(micons.outlined.woff2) format('woff2'); }
+@font-face { font-family:'micons rd'; font-style:normal; font-weight:400; src:url(micons.round.woff2) format('woff2'); }
+@font-face { font-family:'micons sh'; font-style:normal; font-weight:400; src:url(micons.sharp.woff2) format('woff2'); }
+@font-face { font-family:'micons tt'; font-style:normal; font-weight:400; src:url(micons.two.tone.woff2) format('woff2'); }
+  
+@font-face { font-family:'micons'; font-style:normal; font-weight:400; src:url(reg.eot); /* For IE6-8 */
+	src:local('micons'),
+	local('micons-reg'),
+	url(micons2.woff2) format('woff2'),
+	url(reg.woff) format('woff'),
+	url(reg.ttf) format('truetype');
+}
+
+.micons, i[con] { font-family:'micons sh'; font-weight:normal; font-style:normal; font-size:24px; /* Preferred icon size */
+	display:inline-block; line-height:1; text-transform:none; letter-spacing:normal; word-wrap:normal; white-space:nowrap; direction:ltr; -webkit-box-sizing:content-box; -moz-box-sizing:content-box; box-sizing:content-box;
+  
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing:antialiased; /* Support for Safari and Chrome. */
+	text-rendering:optimizeLegibility;
+  
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing:grayscale;
+  
+	/* Support for IE. */
+	font-feature-settings:'liga';
+}
+
+.micon, i[con] { border-radius:50%; display:inline-block; margin:0 4px; padding:12px; overflow:hidden; vertical-align:middle; cursor:pointer; height:24px; width:24px; flex:0 0 auto; }
+.micon:hover, i[con]:hover { background-color:hsl(0,0%,96%); }
+
+.micons.ol, .micons.outlined, i[con$=ol], i[con$=outlined] { font-family:'micons ol'; }
+.micons.rd, .micons.round, i[con$=rd], i[con$=round] { font-family:'micons rd'; }
+.micons.sh, .micons.sharp, i[con$=sh], i[con$=sharp] { font-family:'micons sh'; }
+.micons.tt, .micons.twotone, i[con$=tt], i[con$=twotone] { font-family:'micons tt'; }
+
+/*
+.micons { font-family:'micons'; font-weight:normal; font-style:normal; font-size:24px; line-height:1; letter-spacing:normal; text-transform:none; display:inline-block; white-space:nowrap; word-wrap:normal; direction:ltr; -webkit-font-feature-settings:'liga'; -webkit-font-smoothing:antialiased; }
+.micons.ol,
+.micons.outlined { font-family:'micons ol'; font-weight:normal; font-style:normal; font-size:24px; line-height:1; letter-spacing:normal; text-transform:none; display:inline-block; white-space:nowrap; word-wrap:normal; direction:ltr; -webkit-font-feature-settings:'liga'; -webkit-font-smoothing:antialiased; }
+.micons.rd,
+.micons.round { font-family:'micons rd'; font-weight:normal; font-style:normal; font-size:24px; line-height:1; letter-spacing:normal; text-transform:none; display:inline-block; white-space:nowrap; word-wrap:normal; direction:ltr; -webkit-font-feature-settings:'liga'; -webkit-font-smoothing:antialiased; }
+.micons.sh  
+.micons.sharp { font-family:'micons sh'; font-weight:normal; font-style:normal; font-size:24px; line-height:1; letter-spacing:normal; text-transform:none; display:inline-block; white-space:nowrap; word-wrap:normal; direction:ltr; -webkit-font-feature-settings:'liga'; -webkit-font-smoothing:antialiased; }
+.micons.tt,
+.micons.twotone { font-family:'micons tt'; font-weight:normal; font-style:normal; font-size:24px; line-height:1; letter-spacing:normal; text-transform:none; display:inline-block; white-space:nowrap; word-wrap:normal; direction:ltr; -webkit-font-feature-settings:'liga'; -webkit-font-smoothing:antialiased; }
+*/

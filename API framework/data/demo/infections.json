@@ -1,0 +1,50 @@
+[
+    {
+        "id": "3mrgn",
+        "label": "3MRGN"
+    },
+    {
+        "id": "4mrgn",
+        "label": "4MRGN"
+    },
+    {
+        "id": "clostridium_d",
+        "label": "Clostridium D"
+    },
+    {
+        "id": "covid19",
+        "label": "COVID-19"
+    },
+    {
+        "id": "esbl",
+        "label": "ESBL"
+    },
+    {
+        "id": "gastroenteritis",
+        "label": "Gastroenteritis"
+    },
+    {
+        "id": "hepatitis_a_e",
+        "label": "Hepatitis A+E"
+    },
+    {
+        "id": "meningitis",
+        "label": "Meningitis"
+    },
+    {
+        "id": "mrsa",
+        "label": "MRSA"
+    },
+    {
+        "id": "salmonellen",
+        "label": "Salmonellen"
+    },
+    {
+        "id": "tbc",
+        "label": "TBC"
+    },
+    {
+        "id": "vre",
+        "label": "VRE"
+    }
+]

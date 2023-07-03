@@ -1,0 +1,26 @@
+[
+    {
+        "id": "latex",
+        "label": "Latex"
+    },
+    {
+        "id": "peanut",
+        "label": "Peanut"
+    },
+    {
+        "id": "milk",
+        "label": "Milk"
+    },
+    {
+        "id": "soy",
+        "label": "Soy"
+    },
+    {
+        "id": "penicillin",
+        "label": "Penicillin"
+    },
+    {
+        "id": "wheat",
+        "label": "Wheat"
+    }
+]

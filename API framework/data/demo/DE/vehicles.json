@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "registration": "J14 68 H91",
+        "odometer": 141336
+    },
+    {
+        "id": 2,
+        "registration": "R67 24 G97",
+        "odometer": 563091
+    },
+    {
+        "id": 3,
+        "registration": "K13 84 W48",
+        "odometer": 666536
+    },
+    {
+        "id": 4,
+        "registration": "E23 50 A49",
+        "odometer": 595696
+    },
+    {
+        "id": 5,
+        "registration": "I36 73 I90",
+        "odometer": 404689
+    }
+]

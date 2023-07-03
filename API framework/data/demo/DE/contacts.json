@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "first_name": "John",
+        "last_name": "Miller",
+        "prefix": "Dr.",
+        "phone_country": "DE",
+        "phone_number": "+49 579123450",
+        "contact_group": "DOCTOR"
+    },
+    {
+        "id": 2,
+        "first_name": "Sam",
+        "last_name": "Smith",
+        "prefix": "Dr.",
+        "phone_country": "DE",
+        "phone_number": "+49 579123451",
+        "contact_group": "DOCTOR"
+    },
+    {
+        "id": 3,
+        "first_name": "Jessica",
+        "last_name": "Wild",
+        "prefix": "Dr.",
+        "phone_country": "DE",
+        "phone_number": "+49 579123452",
+        "contact_group": "DOCTOR"
+    },
+    {
+        "id": 4,
+        "first_name": "Emma",
+        "last_name": "Schmidt",
+        "prefix": "",
+        "phone_country": "DE",
+        "phone_number": "+49 579123453",
+        "contact_group": "COLLEAGUE"
+    },
+    {
+        "id": 5,
+        "first_name": "Lena",
+        "last_name": "Hiddi",
+        "prefix": "",
+        "phone_country": "DE",
+        "phone_number": "+49 579123454",
+        "contact_group": "COLLEAGUE"
+    },
+    {
+        "id": 6,
+        "first_name": "Martin",
+        "last_name": "Wilms",
+        "prefix": "",
+        "phone_country": "DE",
+        "phone_number": "+49 579123455",
+        "contact_group": "COLLEAGUE"
+    },
+    {
+        "id": 7,
+        "first_name": "Jacky",
+        "last_name": "Bridge",
+        "prefix": "",
+        "phone_country": "DE",
+        "phone_number": "+49 579123456",
+        "contact_group": "SUPPLIER"
+    },
+    {
+        "id": 10,
+        "first_name": "Jimmy",
+        "last_name": "James",
+        "prefix": "",
+        "phone_country": "DE",
+        "phone_number": "+49 123444567",
+        "contact_group": "SUPPLIER"
+    },
+    {
+        "id": 11,
+        "first_name": "Joseph",
+        "last_name": "Smith",
+        "prefix": "",
+        "phone_country": "DE",
+        "phone_number": "+49 234555678",
+        "contact_group": "SUPPLIER"
+    },
+    {
+        "id": 8,
+        "first_name": "Moritz",
+        "last_name": "Vogt",
+        "prefix": "",
+        "phone_country": "DE",
+        "phone_number": "+49 579123457",
+        "contact_group": "PATIENT"
+    },
+    {
+        "id": 12,
+        "first_name": "Marti",
+        "last_name": "Fisher",
+        "prefix": "",
+        "phone_country": "DE",
+        "phone_number": "+49 345666789",
+        "contact_group": "PATIENT"
+    },
+    {
+        "id": 13,
+        "first_name": "Owen",
+        "last_name": "M\u00fcller",
+        "prefix": "",
+        "phone_country": "DE",
+        "phone_number": "+49 456777890",
+        "contact_group": "PATIENT"
+    },
+    {
+        "id": 9,
+        "first_name": "Care",
+        "last_name": "Net1",
+        "prefix": "",
+        "phone_country": "DE",
+        "phone_number": "+49 579123458",
+        "contact_group": "CARENETWORK"
+    },
+    {
+        "id": 14,
+        "first_name": "Amazing",
+        "last_name": "Health",
+        "prefix": "",
+        "phone_country": "DE",
+        "phone_number": "+49 123444560",
+        "contact_group": "CARENETWORK"
+    },
+    {
+        "id": 15,
+        "first_name": "Care",
+        "last_name": "Stra\u00dfe 1",
+        "prefix": "",
+        "phone_country": "DE",
+        "phone_number": "+49 012333456",
+        "contact_group": "CARENETWORK"
+    },
+    {
+        "id": 16,
+        "first_name": "Mark",
+        "last_name": "Wilsons",
+        "prefix": "",
+        "phone_country": "DE",
+        "phone_number": "+49 111222334",
+        "contact_group": "HEADOFCARE"
+    }
+]

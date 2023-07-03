@@ -1,0 +1,8 @@
+id,modules
+1,first_visit
+2,skin_care hair_nail_care oral_dental_denture_care
+3,transfer_to_from_bed assist_getting_un_dressed partial_bathing
+4,complete_bathing_only
+5,stationary_mobilization transfer_to_from_bed assist_with_eating
+6,minor_residence_care prepare_other_meal assist_with_eating
+7,thorough_bathing shaving_facial_care

@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "first_name": "John",
+        "last_name": "Miller",
+        "prefix": "Dr.",
+        "phone_country": "CA",
+        "phone_number": "+1 (902) 555 9450",
+        "contact_group": "DOCTOR"
+    },
+    {
+        "id": 2,
+        "first_name": "Sam",
+        "last_name": "Smith",
+        "prefix": "Dr.",
+        "phone_country": "CA",
+        "phone_number": "+1 (902) 555 9451",
+        "contact_group": "DOCTOR"
+    },
+    {
+        "id": 3,
+        "first_name": "Jessica",
+        "last_name": "Wild",
+        "prefix": "Dr.",
+        "phone_country": "CA",
+        "phone_number": "+1 (902) 555 9452",
+        "contact_group": "DOCTOR"
+    },
+    {
+        "id": 4,
+        "first_name": "Jack",
+        "last_name": "Baker",
+        "prefix": "Mr.",
+        "phone_country": "CA",
+        "phone_number": "+1 (902) 555 9453",
+        "contact_group": "COLLEAGUE"
+    },
+    {
+        "id": 5,
+        "first_name": "Lena",
+        "last_name": "Fortin",
+        "prefix": "Mrs.",
+        "phone_country": "CA",
+        "phone_number": "+1 (902) 555 9454",
+        "contact_group": "COLLEAGUE"
+    },
+    {
+        "id": 6,
+        "first_name": "Kate",
+        "last_name": "Lavoie",
+        "prefix": "Ms.",
+        "phone_country": "CA",
+        "phone_number": "+1 (902) 555 9455",
+        "contact_group": "COLLEAGUE"
+    },
+    {
+        "id": 7,
+        "first_name": "Jacky",
+        "last_name": "Bridges",
+        "prefix": "",
+        "phone_country": "CA",
+        "phone_number": "+1 (902) 555 9456",
+        "contact_group": "SUPPLIER"
+    },
+    {
+        "id": 10,
+        "first_name": "Mathew",
+        "last_name": "James",
+        "prefix": "",
+        "phone_country": "CA",
+        "phone_number": "+1 (902) 555 9567",
+        "contact_group": "SUPPLIER"
+    },
+    {
+        "id": 11,
+        "first_name": "Joseph",
+        "last_name": "Duboise",
+        "prefix": "",
+        "phone_country": "CA",
+        "phone_number": "+1 (902) 555 9678",
+        "contact_group": "SUPPLIER"
+    },
+    {
+        "id": 8,
+        "first_name": "Martin",
+        "last_name": "Tanguay",
+        "prefix": "",
+        "phone_country": "CA",
+        "phone_number": "+1 (902) 555 9457",
+        "contact_group": "PATIENT"
+    },
+    {
+        "id": 12,
+        "first_name": "Marie",
+        "last_name": "Fischer",
+        "prefix": "",
+        "phone_country": "CA",
+        "phone_number": "+1 (902) 555 9789",
+        "contact_group": "PATIENT"
+    },
+    {
+        "id": 13,
+        "first_name": "Owen",
+        "last_name": "Michaels",
+        "prefix": "",
+        "phone_country": "CA",
+        "phone_number": "+1 (902) 555 9890",
+        "contact_group": "PATIENT"
+    },
+    {
+        "id": 9,
+        "first_name": "MPG",
+        "last_name": "",
+        "prefix": "",
+        "phone_country": "CA",
+        "phone_number": "+1 (902) 555 9458",
+        "contact_group": "CARENETWORK"
+    },
+    {
+        "id": 14,
+        "first_name": "CM",
+        "last_name": "",
+        "prefix": "",
+        "phone_country": "CA",
+        "phone_number": "+1 (902) 555 9560",
+        "contact_group": "CARENETWORK"
+    },
+    {
+        "id": 15,
+        "first_name": "UniCare",
+        "last_name": "",
+        "prefix": "",
+        "phone_country": "CA",
+        "phone_number": "+1 (902) 555 9556",
+        "contact_group": "CARENETWORK"
+    },
+    {
+        "id": 16,
+        "first_name": "Mark",
+        "last_name": "Wilson",
+        "prefix": "",
+        "phone_country": "CA",
+        "phone_number": "+1 (902) 555 9334",
+        "contact_group": "HEADOFCARE"
+    }
+]
