@@ -1,0 +1,6 @@
+bigint
+enum
+bigint
+bigint
+timestamp
+timestamp

@@ -1,0 +1,10 @@
+id
+visit
+measure
+value
+type
+status
+note
+audio
+created
+modified

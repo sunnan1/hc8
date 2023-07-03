@@ -1,0 +1,13 @@
+bigint
+datetime
+bigint
+bigint
+int
+timestamp
+timestamp
+enum
+enum
+varchar
+varchar
+timestamp
+timestamp

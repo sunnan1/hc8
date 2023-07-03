@@ -1,0 +1,15 @@
+bigint
+set
+varchar
+varchar
+enum
+date
+varchar
+varchar
+varchar
+varchar
+varchar
+varchar
+varchar
+timestamp
+timestamp

@@ -1,0 +1,13 @@
+id
+scheduled
+tour
+patient
+care_plan
+start
+end
+status
+patient_status
+note
+audio
+created
+modified

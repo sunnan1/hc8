@@ -1,0 +1,6 @@
+id
+code
+seconds
+qualifications
+created
+modified
