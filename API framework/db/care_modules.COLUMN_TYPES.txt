@@ -1,0 +1,6 @@
+int
+varchar
+int
+set
+timestamp
+timestamp

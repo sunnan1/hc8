@@ -1,0 +1,13 @@
+id
+code
+patient
+doctor
+dosage
+msr
+time
+with_food
+advice
+expire
+ref
+created
+modified

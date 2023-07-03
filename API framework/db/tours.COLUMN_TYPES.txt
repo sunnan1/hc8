@@ -1,0 +1,12 @@
+bigint
+bigint
+json
+timestamp
+timestamp
+int
+int
+int
+int
+enum
+timestamp
+timestamp

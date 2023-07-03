@@ -1,0 +1,10 @@
+id
+tour
+visit
+type
+start
+end
+note
+audio
+created
+modified

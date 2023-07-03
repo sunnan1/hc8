@@ -1,0 +1,7 @@
+bigint
+bigint
+varchar
+mediumtext
+bigint
+datetime
+datetime

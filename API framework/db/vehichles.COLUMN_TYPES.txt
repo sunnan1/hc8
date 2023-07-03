@@ -1,0 +1,8 @@
+bigint
+varchar
+varchar
+varchar
+smallint
+enum
+timestamp
+timestamp

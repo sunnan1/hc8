@@ -1,0 +1,11 @@
+id
+caregiver
+visits
+start
+end
+vehicle
+start_km
+end_km
+total_km
+created
+modified
